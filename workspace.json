@@ -1,0 +1,243 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20260417163104.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260417163104"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "78b1abd5ee6eed2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce48ec08405d3f9a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e4107e8fd594c1a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "23960f58cedced5c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tasks config",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5a166f9ef9e14831",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 315.5
+  },
+  "right": {
+    "id": "edcd7e8132f2357b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8fc9cd168db67b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbd50b859a5338af",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Ideas/Stream Deck — Idea.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Stream Deck — Idea"
+            }
+          },
+          {
+            "id": "f9bbf57cf1334ed2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "8f0ee1cf0cd78b2f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "17d3aeda32d9ce4d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "41baf3a5cf73b774",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Obsidian/Obsidian — Vimrc.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Obsidian — Vimrc"
+            }
+          },
+          {
+            "id": "172f1d52a6f1e47e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "homepage:Open homepage": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-livesync:P2P Replicator": false,
+      "obsidian-livesync:Replicate": false,
+      "obsidian-livesync:Show Log": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-livesync:Show Customization sync": false,
+      "periodic-notes:Open this week": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "Pasted image 20260417163148.png",
+    "Pasted image 20260417163104.png",
+    "Home.md",
+    "Projects/Ideas/Android RSS Mini Flux Reader — Idea.md",
+    "Docs/Obsidian — Setup/Vimrc — Obsidian.md",
+    "Me/Me — Tasks.md",
+    "Docs/Obsidian — Setup/QuickAdd.md",
+    "Projects/Config/Config — Tasks.md",
+    "Me/Me — Check Out.md",
+    "Projects/Work/4839 — SWR/Sprint 4 — Meeting Note.md",
+    "Projects/Config/Config — RSS — Feeds.md",
+    "  - [u] [[ienist]] — added 2026-04-17.md",
+    "  - [u] [[The Secret Rules of the Terminal]] — added 2026-04-17.md",
+    "Docs/Dev — Tools/Obsidian/Tasks — Dev Tool Guide.md",
+    "Projects/Work/4839 — SWR/4839 — SWR — Tasks.md",
+    "Projects/Work/4839 — SWR/4839 — SWR — MOC.md",
+    "Periodic/Weekly/Weekly 16 — April 12th, 2026.md",
+    "Periodic/Weekly/Weekly 15 — April 6th, 2026.md",
+    "Periodic/Daily/Daily — Friday, April 17, 2026.md",
+    "Periodic/Daily/Daily — Tuesday, April 14, 2026.md",
+    "Home.base",
+    "Docs/Dev — Notes/Rust/Dirs.md",
+    "Docs/Dev — Notes/Dev — Notes — MOC.md",
+    "Docs/Docs — MOC.md",
+    "Docs/Dev — Notes/Rust/Actix.md",
+    "Templates/Week 15 — April 12th, 2026.md",
+    "Periodic/Weekly/Week 15 — April 12th, 2026.md",
+    "Docs/Dev — Notes/Rust/Tokio/Channels.md",
+    "Docs",
+    "Periodic",
+    "Projects",
+    "Untitled.canvas",
+    "Docs/Dev — Tools/Editor",
+    "Docs/Dev — Tools/Typos",
+    "Docs/Dev — Tools/Nix",
+    "Docs/Dev — Tools/Coverage",
+    "Docs/Dev — Tools/Github",
+    "Docs/Dev — Tools/Cargo"
+  ]
+}
