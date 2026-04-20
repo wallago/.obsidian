@@ -49,7 +49,7 @@
     },
     {
       "id": "394073a9-61a7-49f8-8e25-0d3b9bbbb5c9",
-      "name": "Add Checkout (copy)",
+      "name": "Add Project Task",
       "type": "Capture",
       "command": true,
       "appendLink": false,
