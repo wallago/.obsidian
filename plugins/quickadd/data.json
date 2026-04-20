@@ -17,11 +17,58 @@
       },
       "format": {
         "enabled": true,
-        "format": "- [u] [{{VALUE:Name}}]({{VALUE:Link}}) — {{VALUE:Description}} {{VALUE:🔺,⏫,🔼,🔽,⏬|label:Priority}} {{VALUE:📅 Due|default:📅 {{DATE}}}}\n"
+        "format": "- [u] [{{VALUE:Name}}]({{VALUE:Link}}) — {{VALUE:Description}} {{VALUE:🔺,⏫,🔼,🔽,⏬|label:Priority}}\n"
       },
       "insertAfter": {
         "enabled": true,
         "after": "## Books & Long Reads",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top",
+        "inline": false,
+        "replaceExisting": false,
+        "blankLineAfterMatchMode": "auto"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": false,
+      "task": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "templater": {
+        "afterCapture": "none"
+      }
+    },
+    {
+      "id": "4e698c8c-b07a-4779-a145-590e0da469f1",
+      "name": "Add Checkout Blogs & Newsletters",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Me/Me — Check Out.md",
+      "captureToActiveFile": false,
+      "captureToCanvasNodeId": "",
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [u] [{{VALUE:Name}}]({{VALUE:Link}}) — {{VALUE:Description}} {{VALUE:🔺,⏫,🔼,🔽,⏬|label:Priority}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Blogs & Newsletters",
         "insertAtEnd": false,
         "considerSubsections": false,
         "createIfNotFound": false,
