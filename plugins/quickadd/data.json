@@ -2,7 +2,7 @@
   "choices": [
     {
       "id": "e82e0e5b-c0b9-4de2-8af5-96dba90b9b27",
-      "name": "Add Checkout",
+      "name": "Add Checkout Books & Long Reads",
       "type": "Capture",
       "command": true,
       "appendLink": false,
@@ -17,7 +17,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "- [u] [{{VALUE:Name}}]({{VALUE:Link}}) — {{VALUE:Description}}\n"
+        "format": "- [u] [{{VALUE:Name}}]({{VALUE:Link}}) — {{VALUE:Description}} {{VALUE:🔺,⏫,🔼,🔽,⏬|label:Priority}} {{VALUE:📅 Due|default:📅 {{DATE}}}}\n"
       },
       "insertAfter": {
         "enabled": true,
@@ -49,11 +49,11 @@
     },
     {
       "id": "394073a9-61a7-49f8-8e25-0d3b9bbbb5c9",
-      "name": "Add Project Task",
+      "name": "Add Config Task",
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "Me/Me — Check Out.md",
+      "captureTo": "Projects/Config/Config — Tasks.md",
       "captureToActiveFile": false,
       "captureToCanvasNodeId": "",
       "activeFileWritePosition": "cursor",
@@ -64,11 +64,340 @@
       },
       "format": {
         "enabled": true,
-        "format": "- [u] [{{VALUE:Name}}]({{VALUE:Link}}) — {{VALUE:Description}}\n"
+        "format": "- [ ] {{VALUE:Description}} {{VALUE:🔺,⏫,🔼,🔽,⏬|label:Priority}} {{VALUE:📅 Due|default:📅 {{DATE}}}}\n"
       },
       "insertAfter": {
         "enabled": true,
-        "after": "## Books & Long Reads",
+        "after": "# Config — Tasks",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top",
+        "inline": false,
+        "replaceExisting": false,
+        "blankLineAfterMatchMode": "auto"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": false,
+      "task": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "templater": {
+        "afterCapture": "none"
+      }
+    },
+    {
+      "id": "19ff861e-9390-4e24-9ea9-5855a42d086c",
+      "name": "Add Me Task",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Me/Me — Tasks.md",
+      "captureToActiveFile": false,
+      "captureToCanvasNodeId": "",
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{VALUE:Description}} {{VALUE:🔺,⏫,🔼,🔽,⏬|label:Priority}} {{VALUE:📅 Due|default:📅 {{DATE}}}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "# Me — Tasks",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top",
+        "inline": false,
+        "replaceExisting": false,
+        "blankLineAfterMatchMode": "auto"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": false,
+      "task": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "templater": {
+        "afterCapture": "none"
+      }
+    },
+    {
+      "id": "75772902-af03-4d91-872e-5a0701392781",
+      "name": "Add Project Chocofi Task",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Projects/Side/Chocofi/Chocofi — Tasks.md",
+      "captureToActiveFile": false,
+      "captureToCanvasNodeId": "",
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{VALUE:Description}} {{VALUE:🔺,⏫,🔼,🔽,⏬|label:Priority}} {{VALUE:📅 Due|default:📅 {{DATE}}}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "# Chocofi — Tasks",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top",
+        "inline": false,
+        "replaceExisting": false,
+        "blankLineAfterMatchMode": "auto"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": false,
+      "task": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "templater": {
+        "afterCapture": "none"
+      }
+    },
+    {
+      "id": "566205bb-a160-4bb2-979b-fa79a8e65cb5",
+      "name": "Add Project Nix Bootstrap Task",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Projects/Side/Nix Bootstrap/Nix Bootstrap — Tasks.md",
+      "captureToActiveFile": false,
+      "captureToCanvasNodeId": "",
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{VALUE:Description}} {{VALUE:🔺,⏫,🔼,🔽,⏬|label:Priority}} {{VALUE:📅 Due|default:📅 {{DATE}}}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "#Nix Bootstrap — Tasks",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top",
+        "inline": false,
+        "replaceExisting": false,
+        "blankLineAfterMatchMode": "auto"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": false,
+      "task": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "templater": {
+        "afterCapture": "none"
+      }
+    },
+    {
+      "id": "4f3f0707-79b4-44d7-a871-9924974e788d",
+      "name": "Add Project Project Banner Task",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Projects/Side/Project Banner/Project Banner — Tasks.md",
+      "captureToActiveFile": false,
+      "captureToCanvasNodeId": "",
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{VALUE:Description}} {{VALUE:🔺,⏫,🔼,🔽,⏬|label:Priority}} {{VALUE:📅 Due|default:📅 {{DATE}}}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "# Project Banner — Tasks",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top",
+        "inline": false,
+        "replaceExisting": false,
+        "blankLineAfterMatchMode": "auto"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": false,
+      "task": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "templater": {
+        "afterCapture": "none"
+      }
+    },
+    {
+      "id": "8765f688-ffc1-42ca-8e8d-3c95bb7d9de0",
+      "name": "Add Project 4797 — Alpine Simu Task",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Projects/Work/4797 — Alpine Simu/4797 — Alpine Simu — Tasks.md",
+      "captureToActiveFile": false,
+      "captureToCanvasNodeId": "",
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{VALUE:Description}} {{VALUE:🔺,⏫,🔼,🔽,⏬|label:Priority}} {{VALUE:📅 Due|default:📅 {{DATE}}}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "# 4797 — Alpine Simu — Tasks",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top",
+        "inline": false,
+        "replaceExisting": false,
+        "blankLineAfterMatchMode": "auto"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": false,
+      "task": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "templater": {
+        "afterCapture": "none"
+      }
+    },
+    {
+      "id": "7a74083d-7914-4eb8-9064-7ee5349e9aee",
+      "name": "Add Project 4837 — R8 Gordini Task",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Projects/Work/4837 — R8 Gordini/4837 — R8 Gordini — Tasks.md",
+      "captureToActiveFile": false,
+      "captureToCanvasNodeId": "",
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{VALUE:Description}} {{VALUE:🔺,⏫,🔼,🔽,⏬|label:Priority}} {{VALUE:📅 Due|default:📅 {{DATE}}}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "# 4837 — R8 Gordini — Tasks",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top",
+        "inline": false,
+        "replaceExisting": false,
+        "blankLineAfterMatchMode": "auto"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": false,
+      "task": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "templater": {
+        "afterCapture": "none"
+      }
+    },
+    {
+      "id": "5a1ce92e-216d-486a-8a89-3d4a86af0cfd",
+      "name": "Add Project 4839 — SWR Task",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Projects/Work/4839 — SWR/4839 — SWR — Tasks.md",
+      "captureToActiveFile": false,
+      "captureToCanvasNodeId": "",
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{VALUE:Description}} {{VALUE:🔺,⏫,🔼,🔽,⏬|label:Priority}} {{VALUE:📅 Due|default:📅 {{DATE}}}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "# 4839 — SWR — Tasks",
         "insertAtEnd": false,
         "considerSubsections": false,
         "createIfNotFound": false,

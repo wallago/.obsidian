@@ -1,14 +1,12 @@
 [
   "obsidian-livesync",
-  "dataview",
   "templater-obsidian",
-  "obsidian-tasks-plugin",
+  "dataview",
   "calendar",
-  "tag-wrangler",
-  "obsidian-icon-folder",
+  "obsidian-tasks-plugin",
   "periodic-notes",
-  "obsidian-linter",
-  "quickadd",
   "obsidian-vimrc-support",
-  "homepage"
+  "obsidian-icon-folder",
+  "tag-wrangler",
+  "quickadd"
 ]

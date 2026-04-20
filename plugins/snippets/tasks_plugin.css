@@ -1,0 +1,31 @@
+/* Hide original checkbox for u and r */
+div[data-task="u"] input.task-list-item-checkbox,
+div[data-task="r"] input.task-list-item-checkbox {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  border: none !important;
+  background: none !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+div[data-task="u"] label.task-list-label,
+div[data-task="r"] label.task-list-label {
+  cursor: pointer !important;
+}
+
+/* Unread - open book */
+div[data-task="u"] label.task-list-label::before {
+  content: "📖" !important;
+  font-size: 1.1em !important;
+  margin-right: 4px !important;
+}
+
+/* Read - closed book */
+div[data-task="r"] label.task-list-label::before {
+  content: "📕" !important;
+  font-size: 1.1em !important;
+  margin-right: 4px !important;
+}
